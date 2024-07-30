@@ -28,3 +28,10 @@ sh <(curl https://create.tauri.app/sh)
 ```shell
 irm https://create.tauri.app/ps | iex
 ```
+
+## Run the empty app for the first time
+```shell
+cd tauri-app
+npm install
+npm run tauri dev
+```
